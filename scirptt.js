@@ -2,7 +2,6 @@ window.onload = function exampleFunction() {
   console.log('The Script will load now.');
 }
 
-
 function deleteRow(regno) {
   console.log("Delete button clicked for registration number:", regno);
 
@@ -20,8 +19,6 @@ function deleteRow(regno) {
             xhr.send("regno=" + regno);
         }
 }
-
-
 
 // function deleteRow(regno) {
 //     if (confirm("Are you sure you want to delete this entry?")) {
